@@ -1,0 +1,17 @@
+name: DanganronpaRoleplay
+version: '${project.version}'
+main: me.sialim.danganronparoleplay.DanganronpaRoleplay
+api-version: '1.16'
+commands:
+  me:
+    usage: /<command> <action>
+    description: Performs an RP action.
+  b:
+    usage: /<command> <message>
+    description: Sends an OOC action.
+  roll:
+    usage: /<command> <integer>
+    description: Rolls a random number between 1 and the parameter.
+  voting:
+    usage: /<command> <player1> <player2> <playeri>
+    description: Starts a voting session consisting of the parameters.
